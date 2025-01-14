@@ -50,6 +50,6 @@ Ivy Taff: CSS & JavaScript
 
 ## Links
 
-The URL of the deployed application: https://gilmerperez.github.io/Color-Code-Palette/
+The URL of the deployed application: https://devilwife.github.io/Color-Code-Palette/
 
-The URL of the GitHub repository: https://github.com/gilmerperez/Color-Code-Palette
+The URL of the GitHub repository: https://github.com/Devilwife/Color-Code-Palette
