@@ -1,0 +1,107 @@
+/* Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+}
+
+body {
+  background-color: var(--primary);
+  color: black;
+}
+
+/* Root Styles */
+:root {
+  --primary: rgb(255, 240, 220);
+  --secondary: rgb(240, 187, 120);
+  --button: rgb(84, 58, 20);
+}
+
+/* Heading */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: var(--primary);
+}
+
+.btn-primary {
+  background-color: var(--button);
+  border: none;
+  margin: 20px;
+}
+
+.btn-primary a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Main */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: var(--primary);
+}
+
+#palettees-container {
+  flex-direction: row; /* Horizontal layout for palettes */
+  display: flex;
+  flex-wrap: wrap; /* Wrap palettes to new lines if needed */
+  gap: 20px; /* Add spacing between palettes */
+  justify-content: center; /* Center-align the palettes */
+  padding: 20px; /* Extra padding */
+  border: 3px solid #030505;
+  border-radius: 10px;
+  background-color: var(--primary);
+  min-height: 150px; /* Ensure container has height even if empty */
+}
+
+.paletteSection {
+  display: flex;
+  flex-direction: column; /* Stack palette name and palettees */
+  align-items: center; /* Center-align content */
+  margin-bottom: 20px; /* Add spacing between palettes */
+}
+
+.paletteSection h2 {
+  font-size: 1.5rem; /* Adjust font size */
+  color: var(--button); /* Match button color */
+  text-align: center; /* Center-align text */
+  margin-bottom: 10px; /* Add spacing between name and palettees */
+  text-transform: capitalize; /* Capitalize names */
+  font-weight: bold; /* Make the name stand out */
+}
+
+.palette {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #cccccc00;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth animation for hover */
+}
+
+.palette:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+.palette-color {
+  width: 80px;
+  height: 80px;
+  border-radius: 4px;
+}
+
+#no-palettees {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+  display: none;
+}
