@@ -1,8 +1,8 @@
-# Color Code Palette
+# Color Palette Generator
 
 ## Description
 
-The Color Code Palette project allows website developers and users to practice Color Theory by generating custom RGB colors. The user can input specific values for the Red, Green, and Blue components (ranging from 0 to 255) to create a unique color. The user can create five colors, forming a custom color palette. This palette can then be saved to Local Storage and displayed on a separate page, making it useful for future design projects or experimentation with color combinations.
+The Color Palette Generator project allows website developers and users to practice Color Theory by generating custom RGB colors. The user can input specific values for the Red, Green, and Blue components (ranging from 0 to 255) to create a unique color. The user can create five colors, forming a custom color palette. This palette can then be saved to Local Storage and displayed on a separate page, making it useful for future design projects or experimentation with color combinations.
 
 This project demonstrates the practical application of Color Theory, where users have full control over the RGB color values and can see the results visually. It emphasizes the creation of interactive web pages using JavaScript, Local Storage, and front-end design techniques.
 
@@ -67,9 +67,9 @@ This project relies on the following tools and technologies:
 
 ## Additional Resources
 
-- GitHub repository: [https://github.com/gilmerperez/color-code-palette](https://github.com/gilmerperez/color-palette-generator)
+- GitHub repository: [https://github.com/gilmerperez/color-palette-generator](https://github.com/gilmerperez/color-palette-generator)
 
-- Deployed Application: [https://gilmerperez.github.io/color-code-palette/](https://gilmerperez.github.io/color-palette-generator/)
+- Deployed Application: [https://gilmerperez.github.io/color-palette-generator/](https://gilmerperez.github.io/color-palette-generator/)
 
 - Bootstrap Documentation: [Bootstrap Documentation](https://getbootstrap.com/)
 
