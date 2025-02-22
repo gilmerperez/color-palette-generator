@@ -67,7 +67,7 @@ This project relies on the following tools and technologies:
 
 ## Additional Resources
 
-- GitHub repository: [https://github.com/gilmerperez/color-code-palette](https://github.com/gilmerperez/Color-Code-Palette)
+- GitHub repository: [https://github.com/gilmerperez/color-code-palette](https://github.com/gilmerperez/color-palette-generator)
 
 - Deployed Application: [https://gilmerperez.github.io/color-code-palette/](https://gilmerperez.github.io/Color-Code-Palette/)
 
