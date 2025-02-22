@@ -2,54 +2,75 @@
 
 ## Description
 
-We want to have a website where the user can input numbers for Red, Green, and Blue to make a color. Create 5 of these colors to make a Palette, then save and name the palette to then display it on a separate page to use for a project.
+The Color Code Palette project allows website developers and users to practice Color Theory by generating custom RGB colors. The user can input specific values for the Red, Green, and Blue components (ranging from 0 to 255) to create a unique color. The user can create five colors, forming a custom color palette. This palette can then be saved to Local Storage and displayed on a separate page, making it useful for future design projects or experimentation with color combinations.
 
-## User Story
+This project demonstrates the practical application of Color Theory, where users have full control over the RGB color values and can see the results visually. It emphasizes the creation of interactive web pages using JavaScript, Local Storage, and front-end design techniques.
 
-As a Website Developer practicing Color Theory
+## Table of Contents
 
-I want to be able to generate a specific RGB color. I want to be able to choose the amount of Red, the amount of Green, and the amount of Blue. I want to create a box of this specific color (RGB). Do this 5 times to create a Palette. I want to then save this Palette to Local Storage to display it to a seperate HTML page
+- [Usage](#usage)
+- [Mock Up](#mock-up)
+- [Instructions](#instructions)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
+- [Additional Resources](#additional-resources)
 
-So that I can see different color combinations for my project
+## Usage
 
-## Acceptance Criteria
+To start the application, open the `index.html` file in a web browser. Users can input RGB values to generate colors. Once five colors are selected, click the "Save Palette" button to store the palette in Local Storage, and navigate to the palette page to view your saved palette.
 
-GIVEN a choice on three colors by our choice of a number for each  to make a new color
+## Mock-Up
 
-WHEN I type in a number in the box for each color from 0-255
+![Wireframe](./images/wireframe.jpg)
 
-THEN I’m able to save the new color and repeat it 5 times to make a color palette and save it on a separate page
+![Screenshot](./images/scWebsite1.jpg)
 
-## Wireframe
+![Screenshot](./images/scWebsite2.jpg)
 
-![Wireframe](./Images/wireframe.jpg)
+## Instructions
 
-## Credits
+1. Clone or download the repository.
 
-Nicole Barger
+2. Open `index.html` in your preferred web browser.
 
-Gilmer Perez
+3. Enter RGB values for Red, Green, and Blue (each between 0 and 255).
 
-Jonathan Maxen
+4. After entering values, click "Create Color" to generate a color.
 
-Ivy Taff
+5. Repeat this process five times to create a palette.
 
-## CSS Framework
+6. Click "Save Palette" to save your color palette to Local Storage.
 
-Bootstrap
+7. Navigate to the palette page to view your saved palette.
 
-## Breakdown of Tasks/Pseudocode
+## Key Features
 
-Nicole Barger: CSS & JavaScript
+- **Custom Color Generation**: Allows users to input RGB values to create a specific color.
 
-Gilmer Perez: index HTML & JavaScript
+- **Palette Creation**: Users can generate up to five custom colors to form a palette.
 
-Jonathan Maxen: localstorage HTML & JavaScript
+- **Local Storage**: Palettes are stored in Local Storage, ensuring they persist between page reloads and can be displayed on a separate page.
 
-Ivy Taff: CSS & JavaScript
+- **Interactive UI**: The user interface provides real-time feedback as users input RGB values, making the tool intuitive and easy to use.
 
-## Links
+## Technology Stack
 
-The URL of the deployed application: https://devilwife.github.io/Color-Code-Palette/
+This project relies on the following tools and technologies:
 
-The URL of the GitHub repository: https://github.com/Devilwife/Color-Code-Palette
+- **HTML/CSS**: For structuring and styling the page, creating an engaging user interface.
+
+- **JavaScript**: For creating the interactive functionality, including generating colors and saving palettes to Local Storage.
+
+- **Local Storage**: Used to persist color palettes between page reloads.
+
+- **Bootstrap**: For responsive design and layout.
+
+## Additional Resources
+
+- GitHub repository: [https://github.com/gilmerperez/color-code-palette](https://github.com/gilmerperez/Color-Code-Palette)
+
+- Deployed Application: [https://gilmerperez.github.io/color-code-palette/](https://gilmerperez.github.io/Color-Code-Palette/)
+
+- Bootstrap Documentation: [Bootstrap Documentation](https://getbootstrap.com/)
+
+- JavaScript Local Storage Guide: [JavaScript Local Storage Guide](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)

@@ -1,0 +1,168 @@
+/* Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+}
+
+body {
+  background-color: var(--primary);
+  color: black;
+}
+
+/* Root Styles */
+:root {
+  --primary: rgb(255, 240, 220);
+  --secondary: rgb(240, 187, 120);
+  --button: rgb(84, 58, 20);
+}
+
+/* Heading */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: var(--primary);
+}
+
+.btn-primary {
+  background-color: var(--button);
+  border: none;
+  margin: 20px;
+}
+
+.btn-primary a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Main */
+.rgb-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px;
+}
+
+.red-box, .green-box, .blue-box {
+  border-radius: 5px;
+  height: 200px;
+  width: auto;
+  border: none;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.red-box h2, .green-box h2, .blue-box h2 {
+  font-weight: 700;
+}
+
+.red-box p, .green-box p, .blue-box p {
+  font-weight: 500;
+}
+
+.red-box label, .green-box label, .blue-box label {
+  font-weight: 500;
+}
+
+.red-box input, .green-box input, .blue-box input {
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+}
+
+/* Styles for Red Box */
+.red-box {
+  background-color: rgba(255, 0, 0, 0.858);
+}
+
+/* Styles for Green Box */
+.green-box {
+  background-color: rgba(0, 173, 0, 0.858);
+}
+
+/* Style for Blue Box */
+.blue-box {
+  background-color: rgba(0, 81, 255, 0.858);
+}
+
+/* Generate Color Button */
+.generate-color-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#generate-color {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+#generate-color:hover {
+  background-color: rgb(206, 206, 206);
+}
+
+/* Saved Colors */
+.saved-colors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.color-1, .color-2, .color-3, .color-4, .color-5 {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  align-items: right;
+  background-color: white;
+  height: 300px;
+}
+
+/* Empty Save Palette Container */
+.empty-save-palette-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#empty-last, #empty-all {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+#save-palette {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+#empty-last:hover, #save-palette:hover, #empty-all:hover {
+  background-color: rgb(206, 206, 206);
+}
